@@ -16,8 +16,7 @@
 
 ## 🚀 Live Demo
 
-**Frontend**: [https://oxford-tailors.vercel.app](https://oxford-tailors.vercel.app)  
-**Backend API**: [https://oxford-tailors-backend.railway.app](https://oxford-tailors-backend.railway.app)
+**Application**: [https://varadharajan-tailoring-app.web.app](https://varadharajan-tailoring-app.web.app)
 
 ## 🛠️ Tech Stack
 
