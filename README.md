@@ -1,135 +1,50 @@
-# 🎯 Oxford Tailors - Customer Management System
+🎯 Oxford Tailors - Customer Management System
 
-> Professional customer management system for tailoring businesses with modern web technologies.
+Professional customer management system for tailoring businesses with modern web technologies.
 
-![Oxford Tailors Logo](public/oxford-tailors-favicon.svg)
+✨ Features
 
-## ✨ Features
+👥 Customer Management - Add, edit, and manage customer information
 
-- **👥 Customer Management** - Add, edit, and manage customer information
-- **📏 Measurements Tracking** - Store detailed measurements for shirts, pants, and trousers  
-- **🔢 Auto Order Numbers** - Sequential order numbering (ORD-001, ORD-002, etc.)
-- **🖨️ Print Queue** - Track orders ready for printing
-- **💾 Data Export** - Backup customer data to PDF and Excel
-- **📱 Responsive Design** - Works perfectly on desktop and mobile
-- **🎨 Professional Branding** - Clean, modern interface with custom logo
+📏 Measurements Tracking - Store detailed measurements for shirts, pants, and trousers
 
-## 🚀 Live Demo
+🔢 Auto Order Numbers - Sequential order numbering (ORD-001, ORD-002, etc.)
 
-**Frontend**: [https://oxford-tailors.vercel.app](https://oxford-tailors.vercel.app)  
-**Backend API**: [https://oxford-tailors-backend.railway.app](https://oxford-tailors-backend.railway.app)
+🖨️ Print Queue - Track orders ready for printing
 
-## 🛠️ Tech Stack
+💾 Data Export - Backup customer data to PDF and Excel
 
-### Frontend
-- **React 18** with TypeScript
-- **Vite** for fast development and building
-- **Tailwind CSS** for styling
-- **React Router** for navigation
-- **Lucide React** for icons
+📱 Responsive Design - Works perfectly on desktop and mobile
 
-### Backend
-- **Node.js** with Express
-- **MySQL** database (FreeSQLDatabase.com)
-- **CORS** enabled for cross-origin requests
-- **Environment variables** for configuration
+🎨 Professional Branding - Clean, modern interface with custom logo
 
-## 📦 Installation
+🚀 Live Demo
 
-### Prerequisites
-- Node.js 18+ installed
-- MySQL database (or use FreeSQLDatabase.com)
+Application: https://varadharajan-tailoring-app.web.app
 
-### Setup Instructions
+Frontend: https://oxford-tailors.vercel.app
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd oxford-tailors
-   ```
+Backend API: https://oxford-tailors-backend.railway.app
 
-2. **Install frontend dependencies**
-   ```bash
-   npm install
-   ```
+🛠️ Tech Stack
+Frontend
 
-3. **Install backend dependencies**
-   ```bash
-   cd backend
-   npm install
-   ```
+React 18 with TypeScript
 
-4. **Configure environment variables**
-   ```bash
-   # In backend folder, create .env file:
-   DB_HOST=sql12.freesqldatabase.com
-   DB_USER=your_username
-   DB_PASSWORD=your_password
-   DB_NAME=your_database_name
-   DB_PORT=3306
-   PORT=3001
-   ```
+Vite for fast development and building
 
-5. **Setup database**
-   ```bash
-   cd backend
-   node setup-database.js
-   ```
+Tailwind CSS for styling
 
-6. **Start the application**
-   ```bash
-   # Terminal 1 - Backend
-   cd backend
-   npm start
+React Router for navigation
 
-   # Terminal 2 - Frontend
-   cd ..
-   npm run dev
-   ```
+Lucide React for icons
 
-## 🌐 Deployment
+Backend
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions to:
-- **Vercel** (Frontend)
-- **Railway** (Backend)
-- **Netlify** (Frontend alternative)
-- **Render** (Backend alternative)
+Node.js with Express
 
-## 📚 API Documentation
+MySQL database (FreeSQLDatabase.com)
 
-### Base URL
-- Development: `http://localhost:3001/api`
-- Production: `https://your-backend-url/api`
+CORS enabled for cross-origin requests
 
-### Endpoints
-
-#### Customers
-- `GET /customers` - Get all customers
-- `POST /customers` - Create new customer
-- `PUT /customers/:id` - Update customer
-- `DELETE /customers/:id` - Delete customer
-
-#### Measurements
-- `GET /measurements/:customerId` - Get customer measurements
-- `POST /measurements` - Add measurements
-
-## 👨‍💻 Developer
-
-**Varadharajan Vijayasimhan**
-- 📧 Email: [varadharajan2507@gmail.com](mailto:varadharajan2507@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/varadharajan-vijayasimhan](https://linkedin.com/in/varadharajan-vijayasimhan)
-
-## 📄 License
-
-This project is developed for Oxford Tailors. All rights reserved.
-
-## 🚀 Ready for Production
-
-✅ Database integrated and tested  
-✅ Professional UI/UX design  
-✅ Responsive mobile-friendly layout  
-✅ Production build optimized  
-✅ Environment configuration ready  
-✅ Deployment documentation complete  
-
-**Your Oxford Tailors application is ready to go live! 🎉**
+Environment variables for configuration
