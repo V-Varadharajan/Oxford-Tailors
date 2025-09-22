@@ -1,0 +1,32 @@
+@media print {
+  @page {
+    size: 132mm 115mm;
+    margin: 0;
+  }
+
+  .print-measurement {
+    width: 132mm;
+    height: 115mm;
+    padding: 10mm;
+    box-sizing: border-box;
+    page-break-after: always;
+  }
+
+  .print-header {
+    margin-bottom: 5mm;
+  }
+
+  .print-measurements {
+    columns: 2;
+    column-gap: 5mm;
+  }
+
+  .print-notes {
+    margin-top: 5mm;
+  }
+
+  /* Hide non-printable elements */
+  .no-print {
+    display: none !important;
+  }
+}
