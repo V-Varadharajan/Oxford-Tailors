@@ -2,8 +2,6 @@
 
 > Professional customer management system for tailoring businesses with modern web technologies.
 
-![Oxford Tailors Logo](public/oxford-tailors-favicon.svg)
-
 ## ✨ Features
 
 - **👥 Customer Management** - Add, edit, and manage customer information
@@ -86,14 +84,6 @@
    npm run dev
    ```
 
-## 🌐 Deployment
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions to:
-- **Vercel** (Frontend)
-- **Railway** (Backend)
-- **Netlify** (Frontend alternative)
-- **Render** (Backend alternative)
-
 ## 📚 API Documentation
 
 ### Base URL
@@ -112,23 +102,8 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions to:
 - `GET /measurements/:customerId` - Get customer measurements
 - `POST /measurements` - Add measurements
 
-## 👨‍💻 Developer
-
-**Varadharajan Vijayasimhan**
-- 📧 Email: [varadharajan2507@gmail.com](mailto:varadharajan2507@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/varadharajan-vijayasimhan](https://linkedin.com/in/varadharajan-vijayasimhan)
-
 ## 📄 License
 
 This project is developed for Oxford Tailors. All rights reserved.
-
-## 🚀 Ready for Production
-
-✅ Database integrated and tested  
-✅ Professional UI/UX design  
-✅ Responsive mobile-friendly layout  
-✅ Production build optimized  
-✅ Environment configuration ready  
-✅ Deployment documentation complete  
 
 **Your Oxford Tailors application is ready to go live! 🎉**
